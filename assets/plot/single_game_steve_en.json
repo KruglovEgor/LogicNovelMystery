@@ -110,7 +110,38 @@
       "background": "assets/img/endings/BadEndingFinal.webp"
     }
   },
-  "music": {},
+  "music": {
+    "bamboo": {
+      "id": "bamboo",
+      "name": "Beauty of the Bamboo",
+      "performer": "Suno AI",
+      "file": "assets/music/bamboo.mp3"
+    },
+    "neon": {
+      "id": "neon",
+      "name": "Neon Sleuth",
+      "performer": "Udio AI",
+      "file": "assets/music/neon.mp3"
+    },
+    "dreams": {
+      "id": "dreams",
+      "name": "Dreams in Transit",
+      "performer": "Udio AI",
+      "file": "assets/music/dreams.mp3"
+    },
+    "flashMan": {
+      "id": "flashMan",
+      "name": "Flash Man",
+      "performer": "Suno AI && Mega Man the Wily Wars",
+      "file": "assets/music/flashman.mp3"
+    },
+    "spectral": {
+      "id": "spectral",
+      "name": "Spectral Clues",
+      "performer": "Suno AI",
+      "file": "assets/music/spectral.mp3"
+    }
+  },
   "startChapter": "inception1",
   "chapters": {
     "inception1": {
@@ -213,7 +244,11 @@
           "id": "inception1_03",
           "dialogue": "Listening, sir!",
           "speaker": "steve",
-          "nextFrame": "inception1_04"
+          "nextFrame": "inception1_04",
+          "effects": [{
+            "type": "STOP_MUSIC",
+            "args": {}
+          }]
         },
         "inception1_04": {
           "id": "inception1_04",
@@ -292,6 +327,12 @@
               "args": {
                 "characterId": "director",
                 "newPose": "idle"
+              }
+            },
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "spectral"
               }
             }
           ]
@@ -393,7 +434,13 @@
         "inception2_18": {
           "id": "inception2_18",
           "dialogue ": "I'm not too familiar with the Prolog language...",
-          "nextFrame": "inception2_19"
+          "nextFrame": "inception2_19",
+          "effects": [
+            {
+              "type": "STOP_MUSIC",
+              "args": {}
+            }
+          ]
         },
         "inception2_19": {
           "id": "inception2_19",
@@ -551,7 +598,11 @@
           "id": "inception3_01",
           "speaker": "anonymous",
           "dialogue": "Stop! Who goes there?! Stop, living creature!",
-          "nextFrame": "inception3_02"
+          "nextFrame": "inception3_02",
+          "effects": [{
+            "type": "STOP_MUSIC",
+            "args": {}
+          }]
         },
         "inception3_02": {
           "id": "inception3_02",
@@ -599,6 +650,12 @@
               "args": {
                 "characterId": "robot",
                 "newPose": "idle"
+              }
+            },
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "bamboo"
               }
             }
           ]
@@ -890,6 +947,10 @@
           "dialogue": "",
           "nextFrame": null,
           "effects": [
+            {
+              "type": "STOP_MUSIC",
+              "args": ""
+            },
             {
               "type": "JUMP_CHAPTER",
               "args": {
