@@ -108,7 +108,7 @@
     "badEndingScreens": {
       "id": "badEndingScreens",
       "name": "Computer Room",
-      "background": "assets/img/endings/BadEndingScreens.webp "
+      "background": "assets/img/endings/BadEndingScreens.webp"
     },
     "goodEndingScreens": {
       "id": "goodEndingScreens",
@@ -116,7 +116,7 @@
       "background": "assets/img/endings/GoodEndingScreens.webp"
     },
     "badEndingSpaceExplosions": {
-      "id ": "badEndingSpaceExplosions",
+      "id": "badEndingSpaceExplosions",
       "name": "Earth Orbit",
       "background": "assets/img/endings/BadEndingSpaceExplosions.webp"
     },
@@ -127,7 +127,7 @@
     },
     "goodEndingFinal": {
       "id": "goodEndingFinal",
-      "name": "Park ",
+      "name": "Park",
       "background":"assets/img/endings/GoodEndingFinal.webp"
     }
   },
@@ -170,7 +170,7 @@
     },
     "elaboration6": {
       "id": "elaboration6",
-      "title": "Conclusion, Chapter 4 ",
+      "title": "Conclusion, Chapter 4",
       "startFrame": "elaboration6_start"
     },
     "ending_0B": {
@@ -179,7 +179,7 @@
       "startFrame": "0B_start",
       "isEnding": true
     },
-    "ending_1B ": {
+    "ending_1B": {
       "id": "ending_1B",
       "title": "Vicky Wins",
       "startFrame": "1B_start",
@@ -188,7 +188,7 @@
     "ending_2B": {
       "id": "ending_2B",
       "title": "Professor and Vicky Lose",
-      "startFrame ": "2B_start",
+      "startFrame": "2B_start",
       "isEnding": true
     },
     "ending_3B": {
@@ -204,7 +204,7 @@
       "isEnding": true
     },
     "ending_5B": {
-      "id": "ending_5B ",
+      "id": "ending_5B",
       "title": "Professor and Vicky won",
       "startFrame": "5B_start",
       "isEnding": true
@@ -223,7 +223,7 @@
           "location": "vickyRoom",
           "characters": [
             {
-              "id": "vicky ",
+              "id": "vicky",
               "pose": "hood",
               "position": "center"
             }
@@ -262,13 +262,13 @@
           "nextFrame": "inception1_06"
         },
         "inception1_06": {
-          "id ": "inception1_06",
+          "id": "inception1_06",
           "dialogue": "Sarah Parker was kidnapped from her home the night before. Her location is still unknown to the FBI.",
           "nextFrame": "inception1_07"
         },
         "inception1_07": {
           "id": "inception1_07",
-          "dialogue": "But they were able to establish the location of the very computer into which the antivirus needs to be introduced. ",
+          "dialogue": "But they were able to establish the location of the very computer into which the antivirus needs to be introduced.",
           "nextFrame": "inception1_08"
         },
         "inception1_08": {
@@ -373,7 +373,7 @@
         },
         "inception2_04": {
           "id": "inception2_04",
-          "dialogue": "I just wanted to protect you, miss. ",
+          "dialogue": "I just wanted to protect you, miss.",
           "speaker": "robot",
           "nextFrame": "inception2_05"
         },
@@ -688,7 +688,7 @@
         },
         "inception3_08": {
           "id": "inception3_08",
-          "dialogue": "Oh, look! There's a staircase ahead! ",
+          "dialogue": "Oh, look! There's a staircase ahead!",
           "speaker": "vicky",
           "nextFrame": "inception3_09",
           "effects": [
@@ -721,7 +721,7 @@
         },
         "inception3_12": {
           "id": "inception3_12",
-          "dialogue": "Here are the main operators that are related to comparisons and logical operations: ",
+          "dialogue": "Here are the main operators that are related to comparisons and logical operations:",
           "speaker": "vicky",
           "nextFrame": "inception3_13"
         },
@@ -819,7 +819,7 @@
             }
           ],
           "speaker": "vicky",
-          "dialogue": "Wow! Look at that huge door! It looks like it's made of titanium. And again, it opens with a code... ",
+          "dialogue": "Wow! Look at that huge door! It looks like it's made of titanium. And again, it opens with a code...",
           "nextFrame": "inception4_01"
         },
         "inception4_01": {
@@ -830,7 +830,7 @@
         },
         "inception4_02": {
           "id": "inception4_02",
-          "dialogue": "I don't even doubt it! Stop! Do you hear me?! ",
+          "dialogue": "I don't even doubt it! Stop! Do you hear me?!",
           "speaker": "vicky",
           "nextFrame": "inception4_03"
         },
@@ -1220,7 +1220,7 @@
         },
         "elaboration3_20": {
           "id": "elaboration3_20",
-          "dialogue": "`append(List1, List2, List1AndList2)` — function of merging two lists ",
+          "dialogue": "`append(List1, List2, List1AndList2)` — function of merging two lists",
           "speaker": "vicky",
           "nextFrame": "elaboration3_21"
         },
@@ -1327,7 +1327,7 @@
         },
         "elaboration4_02": {
           "id": "elaboration4_02",
-          "dialogue": "I can still crawl out from under the table myself. Thank you! Quiet! Do you hear those sounds? ",
+          "dialogue": "I can still crawl out from under the table myself. Thank you! Quiet! Do you hear those sounds?",
           "speaker": "professor",
           "nextFrame": "elaboration4_03",
           "effects": [
@@ -1384,7 +1384,7 @@
         },
         "elaboration4_07": {
           "id": "elaboration4_07",
-          "dialogue": "Are you Professor Langdon?! My name is Sarah Parker! Kevin Mitnick kidnapped me from my own home last night! He's gone crazy and he must be stopped immediately! ",
+          "dialogue": "Are you Professor Langdon?! My name is Sarah Parker! Kevin Mitnick kidnapped me from my own home last night! He's gone crazy and he must be stopped immediately!",
           "speaker": "sarah",
           "nextFrame": "elaboration4_08"
         },
@@ -1649,7 +1649,7 @@
               "position": "right"
             }
           ],
-          "dialogue": "I wonder if the mint employees are also in on Mitnik or if he wants to use them in secret? ",
+          "dialogue": "I wonder if the mint employees are also in on Mitnik or if he wants to use them in secret?",
           "speaker": "sarah",
           "nextFrame": "elaboration6_11"
         },
@@ -1726,25 +1726,25 @@
         },
         "elaboration6_16": {
           "id": "elaboration6_16",
-          "dialogue": "and sets this predicate as a subgoal, which it begins to unify with the knowledge base. ",
+          "dialogue": "and sets this predicate as a subgoal, which it begins to unify with the knowledge base.",
           "speaker": "vicky",
           "nextFrame": "elaboration6_17"
         },
         "elaboration6_17": {
           "id": "elaboration6_17",
-          "dialogue": "If unification of this condition predicate fails, then a rollback to the previous rule condition is performed. ",
+          "dialogue": "If unification of this condition predicate fails, then a rollback to the previous rule condition is performed.",
           "speaker": "vicky",
           "nextFrame": "elaboration6_18"
         },
         "elaboration6_18": {
           "id": "elaboration6_18",
-          "dialogue": "This rollback only occurs if this previous predicate is ambiguous. Let's explain this with an example. ",
+          "dialogue": "This rollback only occurs if this previous predicate is ambiguous. Let's explain this with an example.",
           "speaker": "vicky",
           "nextFrame": "elaboration6_19"
         },
         "elaboration6_19": {
           "id": "elaboration6_19",
-          "dialogue": "`parent (Who, Vicky)` -- The Who variable in the goal predicate is a free variable. ",
+          "dialogue": "`parent (Who, Vicky)` -- The Who variable in the goal predicate is a free variable.",
           "speaker": "vicky",
           "nextFrame": "elaboration6_20"
         },

@@ -96,13 +96,13 @@
       "background": "assets/img/locations/StudyRoom.webp"
     },
     "computerRoom": {
-      "id": "computerRoom ",
+      "id": "computerRoom",
       "name": "Computer Room",
       "background": "assets/img/locations/ComputerRoom.webp"
     },
     "badEndingScreens": {
       "id": "badEndingScreens",
-      "name": "Computer Room ",
+      "name": "Computer Room",
       "background": "assets/img/endings/BadEndingScreens.webp"
     },
     "goodEndingScreens": {
@@ -162,7 +162,7 @@
     "elaboration4": {
       "id": "elaboration4",
       "title": "Continued, Chapter 3",
-      " startFrame": "elaboration4_start"
+      "startFrame": "elaboration4_start"
     },
     "elaboration5": {
       "id": "elaboration5",
@@ -251,7 +251,7 @@
               "position": "right"
             }
           ],
-          "dialogue": "I need Robert Langdon. This is FBI Director J. Edgar Hoover speaking. ",
+          "dialogue": "I need Robert Langdon. This is FBI Director J. Edgar Hoover speaking.",
           "speaker": "director",
           "nextFrame": "inception1_03"
         },
@@ -305,7 +305,7 @@
         },
         "inception1_11": {
           "id": "inception1_11",
-          "dialogue": "It can disrupt the operation of the World Wide Web. It is distributed through a regular message. ",
+          "dialogue": "It can disrupt the operation of the World Wide Web. It is distributed through a regular message.",
           "nextFrame": "inception1_12"
         },
         "inception1_12": {
@@ -356,7 +356,7 @@
         },
         "inception1_20": {
           "id": "inception1_20",
-          "dialogue": "Yes. The car is waiting for us downstairs. But be careful in this abandoned mansion there are life-threatening traps everywhere. ",
+          "dialogue": "Yes. The car is waiting for us downstairs. But be careful in this abandoned mansion there are life-threatening traps everywhere.",
           "speaker": "director",
           "nextFrame": "inception1_21"
         },
@@ -415,7 +415,7 @@
         },
         "inception2_02": {
           "id": "inception2_02",
-          "dialogue": "Hello! My name is Professor Robert Langdon! What is your name? ",
+          "dialogue": "Hello! My name is Professor Robert Langdon! What is your name?",
           "speaker": "professor",
           "nextFrame": "inception2_03"
         },
@@ -453,7 +453,7 @@
         },
         "inception2_07": {
           "id": "inception2_07",
-          "dialogue": "You are a robot model R3, a robot assistant to humans. Your job is to listen and help any person. Right? ",
+          "dialogue": "You are a robot model R3, a robot assistant to humans. Your job is to listen and help any person. Right?",
           "speaker": "professor",
           "nextFrame": "inception2_08"
         },
@@ -477,7 +477,7 @@
         },
         "inception2_11": {
           "id": "inception2_11",
-          "dialogue": "But to study this language, you need to move away from the usual forms of programming and try to delve into the logic of the language itself. ",
+          "dialogue": "But to study this language, you need to move away from the usual forms of programming and try to delve into the logic of the language itself.",
           "nextFrame": "inception2_12"
         },
         "inception2_12": {
@@ -543,7 +543,7 @@
         },
         "inception2_23": {
           "id": "inception2_23",
-          "dialogue": "The dash (`-`) is used as part of various constructions. In rules to denote the separator between the condition and the conclusion (`:-`). ",
+          "dialogue": "The dash (`-`) is used as part of various constructions. In rules to denote the separator between the condition and the conclusion (`:-`).",
           "speaker": "professor",
           "nextFrame": "inception2_24"
         },
@@ -679,7 +679,7 @@
         },
         "inception3_05": {
           "id": "inception3_05",
-          "dialogue": "We've tracked down Kevin Mitnick. He's somewhere in the house. Be careful, professor! He might have a weapon! ",
+          "dialogue": "We've tracked down Kevin Mitnick. He's somewhere in the house. Be careful, professor! He might have a weapon!",
           "speaker": "director",
           "nextFrame": "inception3_06"
         },
@@ -732,7 +732,7 @@
         },
         "inception3_11": {
           "id": "inception3_11",
-          "dialogue": "The concept of a variable in logic programming differs from that accepted in traditional programming languages. ",
+          "dialogue": "The concept of a variable in logic programming differs from that accepted in traditional programming languages.",
           "speaker": "professor",
           "nextFrame": "inception3_12"
         },
@@ -857,7 +857,7 @@
             }
           ],
           "speaker": "professor",
-          "dialogue": "Great, we're doing great! Let's move on quickly! Oops, we've run into a locked door again. You need to enter a code here too... ",
+          "dialogue": "Great, we're doing great! Let's move on quickly! Oops, we've run into a locked door again. You need to enter a code here too...",
           "nextFrame": "inception4_01"
         },
         "inception4_01": {
@@ -880,7 +880,7 @@
         },
         "inception4_04": {
           "id": "inception4_04",
-          "dialogue": "Everything requires human control. Until AI is completely under our control, we expose ourselves to great danger. ",
+          "dialogue": "Everything requires human control. Until AI is completely under our control, we expose ourselves to great danger.",
           "speaker": "professor",
           "nextFrame": "inception4_05"
         },
@@ -1077,7 +1077,7 @@
         },
         "elaboration2_07": {
           "id": "elaboration2_07",
-          "dialogue": "Wow! Just look at it! It's like you've stepped into another world from the dungeon. How cozy! ",
+          "dialogue": "Wow! Just look at it! It's like you've stepped into another world from the dungeon. How cozy!",
           "speaker": "vicky",
           "nextFrame": "elaboration2_08",
           "effects": [
@@ -1329,7 +1329,7 @@
           "nextFrame": "elaboration3_02"
         },
         "elaboration3_02": {
-          " id": "elaboration3_02",
+          "id": "elaboration3_02",
           "dialogue": "I can still crawl out from under the table myself. Thank you! Quiet! Do you hear these sounds?",
           "speaker": "professor",
           "nextFrame": "elaboration3_03"
@@ -1363,7 +1363,7 @@
           "id": "elaboration3_06",
           "dialogue": "Let's go see who's there! We need to shine a flashlight...",
           "speaker": "vicky",
-          " nextFrame": "elaboration3_06_1"
+          "nextFrame": "elaboration3_06_1"
         },
         "elaboration3_06_1": {
           "id": "elaboration3_06_1",
@@ -1380,7 +1380,7 @@
           ] },
         "elaboration3_07": {
           "id": "elaboration3_07",
-          "dialogue": "Are you Professor Langdon?! My name is Sarah Parker! Kevin Mitnick kidnapped me from my own home last night! He's gone crazy and he must be stopped immediately ! ",
+          "dialogue": "Are you Professor Langdon?! My name is Sarah Parker! Kevin Mitnick kidnapped me from my own home last night! He's gone crazy and he must be stopped immediately!",
           "speaker": "sarah",
           "nextFrame": "elaboration3_08"
         },
@@ -1409,7 +1409,7 @@
           "nextFrame": "elaboration3_12"
         },
         "elaboration3_12": {
-          "id": "elaboration3_12 ",
+          "id": "elaboration3_12",
           "dialogue": "I have heard about you, miss, no less than about your outstanding father. I believe that you will succeed!",
           "speaker": "sarah",
           "nextFrame": "elaboration3_13"
@@ -1639,7 +1639,7 @@
               "position": "right"
             }
           ],
-          "dialogue": "I wonder if the mint employees are also in on Mitnik or if he wants to use them in the dark? ",
+          "dialogue": "I wonder if the mint employees are also in on Mitnik or if he wants to use them in the dark?",
           "speaker": "sarah",
           "nextFrame": "elaboration4_11"
         },
@@ -2037,14 +2037,14 @@
             "args": { "characterId": "mitnik" }
           }]
         },
-        " 4A_7": {
+        "4A_7": {
           "id": "4A_7",
           "location": "badEndingFinal",
           "dialogue": "And as long as I can improve the virus, I will rule the world!",
           "nextFrame": "4A_8"
         }
       },
-      " ending_5A": {
+      "ending_5A": {
         "5A_start": {
           "id": "5A_start",
           "location": "goodEndingScreens",
@@ -2068,7 +2068,7 @@
               "hidden": true
             }
           ],
-          "speaker ": "anonymous",
+          "speaker": "anonymous",
           "dialogue": "...3 ...2 ...1... Are you sure you want to stop downloading `virus.pl`?",
           "nextFrame": "5A_1"
         } ,
@@ -2079,7 +2079,7 @@
           "nextFrame": "5A_2"
         },
         "5A_2": {
-          "id": " 5A_2",
+          "id": "5A_2",
           "speaker": "anonymous",
           "dialogue": "File download stopped.",
           "nextFrame": "5A_3"
@@ -2132,7 +2132,7 @@
           "id": "5A_7",
           "speaker": "professor",
           "dialogue": "Well, I hope the latest heuristic algorithms will quickly learn to recognize such threats.",
-          "nextFrame": " 5A_8"
+          "nextFrame": "5A_8"
         },
         "5A_8": {
           "id": "5A_8",

@@ -77,27 +77,27 @@
     "mansionEntrance": {
       "id": "mansionEntrance",
       "name": "Mansion Entrance",
-      "background": "assets/ img/locations/MansionEntrance.webp"
+      "background": "assets/img/locations/MansionEntrance.webp"
     },
     "grandHall": {
       "id": "grandHall",
       "name": "Hall",
       "background": "assets/img/locations/GrandHall.webp"
     },
-    "studyRoom ": {
+    "studyRoom": {
       "id": "studyRoom",
       "name": "Office",
       "background": "assets/img/locations/StudyRoom.webp"
     },
     "computerRoom": {
       "id": "computerRoom",
-      " name": "Room with computer",
+      "name": "Room with computer",
       "background": "assets/img/locations/ComputerRoom.webp"
     },
     "badEndingScreens": {
       "id": "badEndingScreens",
       "name": "Computer Room",
-      "background": "assets/img/endings/BadEndingScreens.webp "
+      "background": "assets/img/endings/BadEndingScreens.webp"
     },
     "goodEndingScreens": {
       "id": "goodEndingScreens",
@@ -105,17 +105,17 @@
       "background": "assets/img/endings/GoodEndingScreens.webp"
     },
     "badEndingFinal": {
-      "id ": "badEndingFinal",
+      "id": "badEndingFinal",
       "name": "Room with computer",
       "background": "assets/img/endings/BadEndingFinal.webp"
     }
   },
   "music": {
-    "bamboo": {
-      "id": "bamboo",
-      "name": "Beauty of the Bamboo",
+    "city": {
+      "id": "city",
+      "name": "Shadows in the City",
       "performer": "Suno AI",
-      "file": "assets/music/bamboo.mp3"
+      "file": "assets/music/city.mp3"
     },
     "neon": {
       "id": "neon",
@@ -123,11 +123,11 @@
       "performer": "Udio AI",
       "file": "assets/music/neon.mp3"
     },
-    "dreams": {
-      "id": "dreams",
-      "name": "Dreams in Transit",
+    "whisper": {
+      "id": "whisper",
+      "name": "Whisper of the Shadows",
       "performer": "Udio AI",
-      "file": "assets/music/dreams.mp3"
+      "file": "assets/music/whisper.mp3"
     },
     "flashMan": {
       "id": "flashMan",
@@ -135,11 +135,11 @@
       "performer": "Suno AI && Mega Man the Wily Wars",
       "file": "assets/music/flashman.mp3"
     },
-    "spectral": {
-      "id": "spectral",
-      "name": "Spectral Clues",
+    "veil": {
+      "id": "veil",
+      "name": "Veil of Shadows",
       "performer": "Suno AI",
-      "file": "assets/music/spectral.mp3"
+      "file": "assets/music/veil.mp3"
     }
   },
   "startChapter": "inception1",
@@ -176,7 +176,7 @@
     },
     "elaboration3": {
       "id": "elaboration3",
-      "title ": "Continued, Chapter 3",
+      "title": "Continued, Chapter 3",
       "startFrame": "elaboration3_start"
     },
     "elaboration4": {
@@ -332,19 +332,19 @@
             {
               "type": "PLAY_MUSIC",
               "args": {
-                "musicId": "spectral"
+                "musicId": "veil"
               }
             }
           ]
         },
-        " inception2_02": {
+        "inception2_02": {
           "id": "inception2_02",
           "dialogue": "Despite the early hour, I have a very important task for you.",
           "nextFrame": "inception2_03"
         },
         "inception2_03": {
-          "id ": "inception2_03",
-          "dialogue": " Hello, director! I'm all ears!",
+          "id": "inception2_03",
+          "dialogue": "Hello, director! I'm all ears!",
           "speaker": "steve",
           "nextFrame": "inception2_04",
           "effects": [
@@ -352,7 +352,7 @@
               "type": "CHANGE_POSE",
               "args": {
                 "characterId": "steve",
-                " newPose": "holdNotebook"
+                "newPose": "holdNotebook"
               }
             }
           ]
@@ -360,7 +360,7 @@
         "inception2_04": {
           "id": "inception2_04",
           "dialogue": "You need to help your country! The life of the entire planet depends on your work!",
-          "speaker": " director",
+          "speaker": "director",
           "nextFrame": "inception2_05"
         },
         "inception2_05": {
@@ -387,7 +387,7 @@
         },
         "inception2_09": {
           "id": "inception2_09",
-          "dialogue": " Information security specialist Sarah Parker's computer was hacked last night.",
+          "dialogue": "Information security specialist Sarah Parker's computer was hacked last night.",
           "nextFrame": "inception2_10"
         },
         "inception2_10": {
@@ -396,7 +396,7 @@
           "nextFrame": "inception2_11"
         },
         "inception2_11": {
-          "id": "inception2_11 ",
+          "id": "inception2_11",
           "dialogue": "We have less than 20 hours left to create an antivirus.",
           "nextFrame": "inception2_12"
         },
@@ -412,8 +412,8 @@
         },
         "inception2_14": {
           "id": "inception2_14",
-          "dialogue": " We also learned that Sarah Parker was kidnapped from her home the night before.",
-          "nextFrame": " inception2_15"
+          "dialogue": "We also learned that Sarah Parker was kidnapped from her home the night before.",
+          "nextFrame": "inception2_15"
         },
         "inception2_15": {
           "id": "inception2_15",
@@ -427,20 +427,14 @@
         },
         "inception2_17": {
           "id": "inception2_17",
-          "dialogue ": "I understand you, sir. However, there is a small nuance...",
+          "dialogue": "I understand you, sir. However, there is a small nuance...",
           "speaker": "steve",
           "nextFrame": "inception2_18"
         },
         "inception2_18": {
           "id": "inception2_18",
-          "dialogue ": "I'm not too familiar with the Prolog language...",
-          "nextFrame": "inception2_19",
-          "effects": [
-            {
-              "type": "STOP_MUSIC",
-              "args": {}
-            }
-          ]
+          "dialogue": "I'm not too familiar with the Prolog language...",
+          "nextFrame": "inception2_19"
         },
         "inception2_19": {
           "id": "inception2_19",
@@ -552,6 +546,10 @@
                 "characterId": "director",
                 "newPose": "phone"
               }
+            },
+            {
+              "type": "STOP_MUSIC",
+              "args": {}
             }
           ]
         },
@@ -607,7 +605,15 @@
         "inception3_02": {
           "id": "inception3_02",
           "dialogue": "You are wandering in these places in vain! Such creatures are forbidden to walk here!",
-          "nextFrame": "inception3_03"
+          "nextFrame": "inception3_03",
+          "effects": [
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "whisper"
+              }
+            }
+          ]
         },
         "inception3_03": {
           "id": "inception3_03",
@@ -655,7 +661,7 @@
             {
               "type": "PLAY_MUSIC",
               "args": {
-                "musicId": "bamboo"
+                "musicId": "city"
               }
             }
           ]
@@ -849,7 +855,7 @@
         },
         "inception4_04": {
           "id": "inception4_04",
-          "dialogue": "The head of a rule is a predicate, and the body of a rule is a sequence of predicates separated by commas. ",
+          "dialogue": "The head of a rule is a predicate, and the body of a rule is a sequence of predicates separated by commas.",
           "nextFrame": "inception4_05"
         },
         "inception4_05": {
@@ -949,7 +955,7 @@
           "effects": [
             {
               "type": "STOP_MUSIC",
-              "args": ""
+              "args": {}
             },
             {
               "type": "JUMP_CHAPTER",
@@ -1024,7 +1030,7 @@
         },
         "elaboration1_07": {
           "id": "elaboration1_07",
-          "dialogue": "We have questioned all the people involved in the case, but this has not given us any new information. No one saw or heard anything. It was as if she disappeared into thin air. ",
+          "dialogue": "We have questioned all the people involved in the case, but no one saw or heard anything. It was as if she disappeared into thin air.",
           "speaker": "director",
           "nextFrame": "elaboration1_08"
         },
@@ -1060,7 +1066,7 @@
         },
         "elaboration1_13": {
           "id": "elaboration1_13",
-          "dialogue": "The arguments of a Prolog program's statements are called terms, and the Prolog program itself can be viewed as a network of relations between terms. ",
+          "dialogue": "The arguments of a Prolog program's statements are called terms, and the Prolog program itself can be viewed as a network of relations between terms.",
           "speaker": "steve",
           "nextFrame": "elaboration1_14"
         },
@@ -1183,7 +1189,7 @@
         },
         "elaboration2_06": {
           "id": "elaboration2_06",
-          "dialogue": "Prolog is a logic-based language. The basic blocks are facts, rules, and queries. ",
+          "dialogue": "Prolog is a logic-based language. The basic blocks are facts, rules, and queries.",
           "nextFrame": "elaboration2_07"
         },
         "elaboration2_07": {
@@ -1241,7 +1247,13 @@
         "elaboration2_15": {
           "id": "elaboration2_15",
           "dialogue": "You're making progress, agent. It's time to open the room...",
-          "nextFrame": "elaboration2_16"
+          "nextFrame": "elaboration2_16",
+          "effects": [
+            {
+              "type": "STOP_MUSIC",
+              "args": {}
+            }
+          ]
         },
         "elaboration2_16": {
           "id": "elaboration2_16",
@@ -1282,7 +1294,15 @@
         "elaboration3_01": {
           "id": "elaboration3_01",
           "dialogue": "I have a feeling that someone was here recently, even left some papers on the table.",
-          "nextFrame": "elaboration3_02"
+          "nextFrame": "elaboration3_02",
+          "effects": [
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "veil"
+              }
+            }
+          ]
         },
         "elaboration3_02": {
           "id": "elaboration3_02",
@@ -1471,6 +1491,10 @@
               "args": {
                 "characterId": "sarah"
               }
+            },
+            {
+              "type": "STOP_MUSIC",
+              "args": {}
             }
           ]
         },
@@ -1493,7 +1517,7 @@
         },
         "elaboration4_09": {
           "id": "elaboration4_09",
-          "dialogue": "You're a brave girl! Now I'll complete the task, enter the code and we'll free you! Don't worry! ",
+          "dialogue": "You're a brave girl! Now I'll complete the task, enter the code and we'll free you! Don't worry!",
           "speaker": "steve",
           "nextFrame": "elaboration4_10"
         },
@@ -1504,12 +1528,12 @@
         },
         "elaboration4_11": {
           "id": "elaboration4_11",
-          "dialogue": "Lists are an important structure. Lists allow you to store an arbitrary amount of data. ",
+          "dialogue": "Lists are an important structure. Lists allow you to store an arbitrary amount of data.",
           "nextFrame": "elaboration4_12"
         },
         "elaboration4_12": {
           "id": "elaboration4_12",
-          "dialogue": "A node contains data and a link (pointer, link) to one or two neighboring nodes. ",
+          "dialogue": "A node contains data and a link (pointer, link) to one or two neighboring nodes.",
           "nextFrame": "elaboration4_13"
         },
         "elaboration4_13": {
@@ -1592,6 +1616,12 @@
                 "characterId": "sarah",
                 "newPose": "idle"
               }
+            },
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "neon"
+              }
             }
           ]
         },
@@ -1609,7 +1639,7 @@
           ]
         }
       },
-      "laboration5": {
+      "elaboration5": {
         "elaboration5_start": {
           "id": "elaboration5_start",
           "location": "computerRoom",
@@ -1731,6 +1761,10 @@
               "args": {
                 "taskId": "task5"
               }
+            },
+            {
+              "type": "STOP_MUSIC",
+              "args": {}
             }
           ]
         },
@@ -1781,7 +1815,15 @@
           "id": "lose_1",
           "nextFrame": "lose_2",
           "speaker": "steve",
-          "dialogue": "Damn... Shouldn't have wasted all those attempts."
+          "dialogue": "Damn... Shouldn't have wasted all those attempts.",
+          "effects": [
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "whisper"
+              }
+            }
+          ]
         },
         "lose_2": {
           "id": "lose_2",
@@ -1841,7 +1883,15 @@
           "id": "win_2",
           "speaker": "sarah",
           "dialogue": "Yes!",
-          "nextFrame": "win_3"
+          "nextFrame": "win_3",
+          "effects": [
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "flashMan"
+              }
+            }
+          ]
         },
         "win_3": {
           "id": "win_3",
@@ -1916,7 +1966,7 @@
         },
         "limbo_1": {
           "id": "limbo_1",
-          " speaker": "mitnik",
+          "speaker": "mitnik",
           "dialogue": "Hello, this is Mitnik.",
           "nextFrame": "limbo_2",
           "effects": [
@@ -1935,7 +1985,7 @@
         },
         "limbo_3": {
           "id": "limbo_3",
-          "dialogue ": "Alas, although it is not your fault...",
+          "dialogue": "Alas, although it is not your fault...",
           "nextFrame": "limbo_4",
           "effects": [
             {
@@ -1971,7 +2021,7 @@
           "dialogue": "",
           "effects": [
             {
-              "type": "STOP ",
+              "type": "STOP",
               "args": {}
             }
           ]
