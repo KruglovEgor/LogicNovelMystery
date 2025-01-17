@@ -126,7 +126,38 @@
       "background": "assets/img/endings/GoodEndingFinal.webp"
     }
   },
-  "music": {},
+  "music": {
+    "city": {
+      "id": "city",
+      "name": "Shadows in the City",
+      "performer": "Suno AI",
+      "file": "assets/music/city.mp3"
+    },
+    "neon": {
+      "id": "neon",
+      "name": "Neon Sleuth",
+      "performer": "Udio AI",
+      "file": "assets/music/neon.mp3"
+    },
+    "whisper": {
+      "id": "whisper",
+      "name": "Whisper of the Shadows",
+      "performer": "Udio AI",
+      "file": "assets/music/whisper.mp3"
+    },
+    "flashMan": {
+      "id": "flashMan",
+      "name": "Flash Man",
+      "performer": "Suno AI && Mega Man the Wily Wars",
+      "file": "assets/music/flashman.mp3"
+    },
+    "veil": {
+      "id": "veil",
+      "name": "Veil of Shadows",
+      "performer": "Suno AI",
+      "file": "assets/music/veil.mp3"
+    }
+  },
   "startChapter": "inception1",
   "chapters": {
     "inception1": {
@@ -231,7 +262,15 @@
           ],
           "speaker": "professor",
           "dialogue": "Время 5:00 утра! Кого могло принести в такую рань... Кто вы?",
-          "nextFrame": "inception1_02"
+          "nextFrame": "inception1_02",
+          "effects": [
+            {
+              "type": "STOP_MUSIC",
+              "args": {
+                "musicId": "inception1"
+              }
+            }
+          ]
         },
         "inception1_02": {
           "id": "inception1_02",
@@ -240,10 +279,6 @@
               "id": "professor",
               "pose": "idle",
               "position": "left"
-            },
-            {
-              "id": "director",
-              "hidden": true
             },
             {
               "id": "director",
@@ -277,7 +312,15 @@
           "id": "inception1_06",
           "dialogue": "Прошу меня извинить, но дело не терпит отлагательств.",
           "speaker": "director",
-          "nextFrame": "inception1_07"
+          "nextFrame": "inception1_07",
+          "effects": [
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "veil"
+              }
+            }
+          ]
         },
         "inception1_07": {
           "id": "inception1_07",
@@ -409,6 +452,12 @@
               "type": "FADE_IN_CHARACTER",
               "args": {
                 "characterId": "robot"
+              }
+            },
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "whisper"
               }
             }
           ]
@@ -582,6 +631,12 @@
               "args": {
                 "chapterId": "inception3"
               }
+            },
+            {
+              "type": "STOP_MUSIC",
+              "args": {
+                "musicId": "music_challenge"
+              }
             }
           ]
         },
@@ -669,7 +724,15 @@
           "id": "inception3_03",
           "dialogue": "Профессор Лэнгдон, это директор ФБР Эдгар Гувер. У меня для вас срочные новости!",
           "speaker": "director",
-          "nextFrame": "inception3_04"
+          "nextFrame": "inception3_04",
+          "effects": [
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "city"
+              }
+            }
+          ]
         },
         "inception3_04": {
           "id": "inception3_04",
@@ -1073,7 +1136,11 @@
         "elaboration2_06": {
           "id": "elaboration2_06",
           "dialogue": "Ты слышишь звуки? Это же голос моей дочери...",
-          "nextFrame": "elaboration2_07"
+          "nextFrame": "elaboration2_07",
+          "effects": [{
+            "type": "STOP_MUSIC",
+            "args": {}
+          }]
         },
         "elaboration2_07": {
           "id": "elaboration2_07",
@@ -1105,7 +1172,13 @@
           "id": "elaboration2_10",
           "dialogue": "Я просто знаю, что без меня тебе не справиться! А сам ты мне бы ни за что не позвонил!",
           "speaker": "vicky",
-          "nextFrame": "elaboration2_11"
+          "nextFrame": "elaboration2_11",
+          "effects": [{
+            "type": "PLAY_MUSIC",
+            "args": {
+              "musicId": "neon"
+            }
+          }]
         },
         "elaboration2_11": {
           "id": "elaboration2_11",
@@ -1567,7 +1640,13 @@
           "id": "elaboration4_04",
           "dialogue": "Тут целый список зашифрованных личных данных сотрудников монетного двора США. На сколько мне известно, к хранилищу Форт-Нокса имеют доступ лишь 10 из них.",
           "speaker": "professor",
-          "nextFrame": "elaboration4_05"
+          "nextFrame": "elaboration4_05",
+          "effects": [{
+            "type": "PLAY_MUSIC",
+            "args": {
+              "musicId": "city"
+            }
+          }]
         },
         "elaboration4_05": {
           "id": "elaboration4_05",
@@ -1769,6 +1848,10 @@
           "id": "elaboration4_24",
           "dialogue": "",
           "effects": [
+            {
+              "type": "STOP_MUSIC",
+              "args": {}
+            },
             {
               "type": "END_CAMPAIGN",
               "args": {
@@ -2078,7 +2161,15 @@
           "id": "5A_1",
           "speaker": "professor",
           "dialogue": "Да.",
-          "nextFrame": "5A_2"
+          "nextFrame": "5A_2",
+          "effects": [
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "flashMan"
+              }
+            }
+          ]
         },
         "5A_2": {
           "id": "5A_2",

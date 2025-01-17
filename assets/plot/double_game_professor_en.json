@@ -126,7 +126,38 @@
       "background": "assets/img/endings/GoodEndingFinal.webp"
     }
   },
-  "music": {},
+  "music": {
+    "city": {
+      "id": "city",
+      "name": "Shadows in the City",
+      "performer": "Suno AI",
+      "file": "assets/music/city.mp3"
+    },
+    "neon": {
+      "id": "neon",
+      "name": "Neon Sleuth",
+      "performer": "Udio AI",
+      "file": "assets/music/neon.mp3"
+    },
+    "whisper": {
+      "id": "whisper",
+      "name": "Whisper of the Shadows",
+      "performer": "Udio AI",
+      "file": "assets/music/whisper.mp3"
+    },
+    "flashMan": {
+      "id": "flashMan",
+      "name": "Flash Man",
+      "performer": "Suno AI && Mega Man the Wily Wars",
+      "file": "assets/music/flashman.mp3"
+    },
+    "veil": {
+      "id": "veil",
+      "name": "Veil of Shadows",
+      "performer": "Suno AI",
+      "file": "assets/music/veil.mp3"
+    }
+  },
   "startChapter": "inception1",
   "chapters": {
     "inception1": {
@@ -231,7 +262,15 @@
           ],
           "speaker": "professor",
           "dialogue": "Time 5:00 AM! Who could have come here at this early hour... Who are you?",
-          "nextFrame": "inception1_02"
+          "nextFrame": "inception1_02",
+          "effects": [
+            {
+              "type": "STOP_MUSIC",
+              "args": {
+                "musicId": "inception1"
+              }
+            }
+          ]
         },
         "inception1_02": {
           "id": "inception1_02",
@@ -240,10 +279,6 @@
               "id": "professor",
               "pose": "idle",
               "position": "left"
-            },
-            {
-              "id": "director",
-              "hidden": true
             },
             {
               "id": "director",
@@ -283,7 +318,15 @@
           "id": "inception1_07",
           "dialogue": "5 o'clock in the morning!",
           "speaker": "professor",
-          "nextFrame": "inception1_08"
+          "nextFrame": "inception1_08",
+          "effects": [
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "veil"
+              }
+            }
+          ]
         },
         "inception1_08": {
           "id": "inception1_08",
@@ -409,6 +452,12 @@
               "type": "FADE_IN_CHARACTER",
               "args": {
                 "characterId": "robot"
+              }
+            },
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "whisper"
               }
             }
           ]
@@ -582,6 +631,10 @@
               "args": {
                 "chapterId": "inception3"
               }
+            },
+            {
+              "type": "STOP_MUSIC",
+              "args": {}
             }
           ]
         },
@@ -669,7 +722,15 @@
           "id": "inception3_03",
           "dialogue": "Professor Langdon, this is FBI Director J. Edgar Hoover. I have some breaking news for you!",
           "speaker": "director",
-          "nextFrame": "inception3_04"
+          "nextFrame": "inception3_04",
+          "effects": [
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "city"
+              }
+            }
+          ]
         },
         "inception3_04": {
           "id": "inception3_04",
@@ -1073,7 +1134,11 @@
         "elaboration2_06": {
           "id": "elaboration2_06",
           "dialogue": "Do you hear sounds? That's my daughter's voice...",
-          "nextFrame": "elaboration2_07"
+          "nextFrame": "elaboration2_07",
+          "effects": [{
+            "type": "STOP_MUSIC",
+            "args": {}
+          }]
         },
         "elaboration2_07": {
           "id": "elaboration2_07",
@@ -1105,7 +1170,13 @@
           "id": "elaboration2_10",
           "dialogue": "I just know that you can't cope without me! And you would never call me yourself!",
           "speaker": "vicky",
-          "nextFrame": "elaboration2_11"
+          "nextFrame": "elaboration2_11",
+          "effects": [{
+            "type": "PLAY_MUSIC",
+            "args": {
+              "musicId": "neon"
+            }
+          }]
         },
         "elaboration2_11": {
           "id": "elaboration2_11",
@@ -1288,7 +1359,7 @@
           ]
         }
       },
-      "laboration3": {
+      "elaboration3": {
         "elaboration3_start": {
           "id": "elaboration3_start",
           "location": "studyRoom",
@@ -1565,7 +1636,13 @@
           "id": "elaboration4_04",
           "dialogue": "There's a whole list of encrypted personal data of US Mint employees. As far as I know, only 10 of them have access to the Fort Knox vault.",
           "speaker": "professor",
-          "nextFrame": "elaboration4_05"
+          "nextFrame": "elaboration4_05",
+          "effects": [{
+            "type": "PLAY_MUSIC",
+            "args": {
+              "musicId": "city"
+            }
+          }]
         },
         "elaboration4_05": {
           "id": "elaboration4_05",
@@ -1767,6 +1844,10 @@
           "id": "elaboration4_24",
           "dialogue": "",
           "effects": [
+            {
+              "type": "STOP_MUSIC",
+              "args": {}
+            },
             {
               "type": "END_CAMPAIGN",
               "args": {
@@ -2076,7 +2157,15 @@
           "id": "5A_1",
           "speaker": "professor",
           "dialogue": "Yes.",
-          "nextFrame": "5A_2"
+          "nextFrame": "5A_2",
+          "effects": [
+            {
+              "type": "PLAY_MUSIC",
+              "args": {
+                "musicId": "flashMan"
+              }
+            }
+          ]
         },
         "5A_2": {
           "id": "5A_2",
