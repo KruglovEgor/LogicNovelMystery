@@ -2215,7 +2215,7 @@
         "5A_6": {
           "id": "5A_6",
           "dialogue": "With its help, a specimen of the Mitnick virus was captured, neutralized, and sent to the lab for safe testing.",
-          "nextFrame": "5A_7 "
+          "nextFrame": "5A_7"
         },
         "5A_7": {
           "id": "5A_7",

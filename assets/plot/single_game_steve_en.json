@@ -164,8 +164,8 @@
       "title": "The Beginning, Chapter 4",
       "startFrame": "inception4_start"
     },
-    "laboration1": {
-      "id": "laboration1",
+    "elaboration1": {
+      "id": "elaboration1",
       "title": "Continued, Chapter 1",
       "startFrame": "elaboration1_start"
     },
@@ -951,7 +951,6 @@
         "inception4_14": {
           "id": "inception4_14",
           "dialogue": "",
-          "nextFrame": null,
           "effects": [
             {
               "type": "STOP_MUSIC",
@@ -2046,7 +2045,7 @@
         3,
         4
       ],
-      " nextFrameOnSuccess": "inception4_13",
+      "nextFrameOnSuccess": "inception4_13",
       "nextFrameOnFailure": "inception4_failTask0_01",
       "failureScorePenalty": 2
     },
